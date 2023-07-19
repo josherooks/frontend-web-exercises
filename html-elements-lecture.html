@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Elements Lecture</title>
+</head>
+<body>
+<small id="top">Top of page</small>
+<!--    Heading elements    -->
+<!--    Heading tags have 6 sizes from the largest h1 to the smallest h6    -->
+<h1>This is a heading (h1) element.</h1>
+<h2>This is a h2</h2>
+<h3>This is a h3</h3>
+<h4>This is a h4</h4>
+<h5>This is a h5</h5>
+<h6>This is a h6</h6>
+<p>
+    <!--    This is a paragraph tag text and/or additional html elements goes here.   -->
+    This is a paragraph tag. A paragraph tag is a block element, meaning it occupies the entire space of its parent
+    element.
+</p>
+<!--    Block-level elements contain data, other block elements, or in line elements.   -->
+<!--    Inline element occupies only the space bounded by the tags that define the inline element.  -->
+<div>
+    <!--    <div> elements are another example of a block element.  -->
+
+    <p>This is a paragraph element inside a div element. A div tag is used as a container for html elements
+        - which is
+        then styled with CSS or manipulated with JavaScript.</p>
+    <!--    <span> is an example of an inline element  -->
+    <p>Look, we have an amazing <span>inline</span> element.</p>
+</div>
+<!--   Void elements do not contain any content and do not have closing tags. -->
+<p>An input element is a void element that provides a box for users to input data or content.</p>
+<label for="username">Username</label>
+<!--    <br> tag creates a line break -->
+<br>
+<!--    Attributes can be added to the opening tags of elements to provide additional data. -->
+<input type="text" name="username" id="username" placeholder="input element"/>
+<!--    <hr> tag creates a line break with a horizontal line    -->
+<hr>
+<!--    <em> is an inline element that produces italicized content  -->
+<!--    <strong> is an inline element that produces bolded content  -->
+<p>Understanding HTML is <em>really</em> <strong>important</strong>!</p>
+<!--    Some elements can be combined by nesting    -->
+<!--    we can nest the <em> <strong> tags to make the text both italicized and bolded -->
+<p>Understanding HTML is <em><strong>really important</strong></em>!</p>
+<!--    List can be made using the <ul> or <ol> tags    -->
+<!--    Use <li> for the list items     -->
+<!--    <ul> produces a bulleted list   -->
+<ul>
+    <li>unordered lists</li>
+    <li>are bulleted</li>
+</ul>
+<!--    <ol> produces a numbered list   -->
+<ol>
+    <li>ordered lists</li>
+    <li>are numbered</li>
+</ol>
+<!--    Anchor produce hyperlinks to other pages or locations within the current page   -->
+<!--    href attribute is used for the location     -->
+<a href="https://google.com"> Go to Google!</a>
+<br>
+<!--    target attribute can specify how the link is opened     -->
+<a href="https://google.com" target="_blank">Visit google in a new tab / window.</a>
+<br>
+<!--     Use # and the id to link to a specific element     -->
+<small><a href="#top">Go to the top of the page</a></small>
+<br>
+<!--    Images can be added using  the <img> tag    -->
+<!--    Use the source attribute to specify the url of the image    -->
+<!--    Use the alt attribute to specify alternate text     -->
+<img src="img/example.jpg" alt="hello" width="30%">
+<!--    Tables can be added using <table> tag   -->
+<!--    <tr> tags are table rows (child element of <table>) that consist of either
+        <th> table headings or
+        <td> table data     -->
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>Iced Tea</td>
+        <td>$2.99</td>
+    </tr>
+    <tr>
+        <td>Hamburger and French Fries</td>
+        <td>$11.99</td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
